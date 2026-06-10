@@ -1,0 +1,22 @@
+POWER BI DASHBOARD – Care Continuity & Provider Workload
+
+Pages:
+
+1) Provider Workload
+   - Bar: Encounters per doctor_id
+   - Bar: Avg wait_time per doctor_id
+   - Bar: Avg satisfaction_score per doctor_id
+
+2) Department Operations
+   - Bar: Encounter_count by department
+   - Bar: Avg wait_time by department
+   - Bar: Admission_rate by department
+
+3) Continuity of Care
+   - Histogram: continuity_score
+   - Table: high-utilizer patients with continuity_score, doctor_id counts
+
+4) Patient Segmentation
+   - Bar: Avg wait_time by visit_type
+   - Bar: Avg wait_time by gender, race
+   - Bar: Avg satisfaction_score by visit_type
