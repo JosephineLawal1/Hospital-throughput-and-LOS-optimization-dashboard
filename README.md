@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="banner.png.png" alt="Project Banner" width="100%" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.15);"></p>
 
-# Care Continuity & Provider Workload Analysis  
-### Operational Analytics Project Using Patient Encounter Data  
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white" alt="Python Badge"/>
+  <img src="https://img.shields.io/badge/SQL-Analytics%20SQL-orange?logo=postgresql&logoColor=white" alt="SQL Badge"/>
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?logo=powerbi&logoColor=black" alt="Power BI Badge"/>
+  <img src="https://img.shields.io/badge/Tableau-Visualization-005F9E?logo=tableau&logoColor=white" alt="Tableau Badge"/>
+  <img src="https://img.shields.io/badge/Healthcare%20Analytics-Operational%20Insights-brightgreen" alt="Healthcare Analytics Badge"/>
+</p>
+
+Operational Analytics Project Using Patient Encounter Data  
 **Author:** Josephine  
 **Role:** Healthcare Data Analyst  
 **Last Updated:** June 2026  
@@ -195,27 +204,39 @@ The reports/ folder includes:
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository
+1. Clone the repository git clone https://github.com/JosephineLawal1/care-continuity-provider-workload.git
 2. Place the patient encounter dataset in data/
 3. Run notebooks in order:
    - 01_data_cleaning.ipynb
    - 02_provider_workload_analysis.ipynb
    - 03_continuity_of_care.ipynb
    - 04_operational_insights.ipynb
-4. Generate dashboard dataset using 05_dashboard_dataset.ipynb
-5. Build dashboard in Power BI or Tableau
+5. Generate dashboard dataset using 05_dashboard_dataset.ipynb
+6. Build dashboard in Power BI or Tableau
 
 ---
+## 📈 Dashboard Overview
 
-📬 Contact
+- The dashboard includes:
+   - Provider workload heatmaps
+   - Wait time analysis
+   - Continuity of care distribution
+   - High-utilizer identification
+   - Department-level operational metrics
+
+## 🏥 Healthcare Analytics Focus
+
+- This project demonstrates:
+  - Operational efficiency analysis
+  - Provider workload balancing
+  - Continuity of care measurement
+  - Patient flow insights
+  - Healthcare performance metrics
+
+
+## 📬 Contact
 For questions or collaboration:
 Josephine — Healthcare Data Analyst  
 San Antonio, TX
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white" alt="Python Badge"/>
-  <img src="https://img.shields.io/badge/SQL-Analytics%20SQL-orange?logo=postgresql&logoColor=white" alt="SQL Badge"/>
-  <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?logo=powerbi&logoColor=black" alt="Power BI Badge"/>
-  <img src="https://img.shields.io/badge/Tableau-Visualization-005F9E?logo=tableau&logoColor=white" alt="Tableau Badge"/>
-  <img src="https://img.shields.io/badge/Healthcare%20Analytics-Operational%20Insights-brightgreen" alt="Healthcare Analytics Badge"/>
-</p>
+
