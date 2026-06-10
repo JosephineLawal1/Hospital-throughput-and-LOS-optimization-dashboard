@@ -1,0 +1,20 @@
+WITH provider_counts AS (
+    SELECT 
+        patient_id,
+        provider_id,
+        COUNT(*) AS encounters_with_provider
+    FROM encounters
+    GROUP BY patient_id, provider_id
+),
+totals AS (
+    SELECT 
+        patient_id,
+        SUM(encounters_with_provider) AS total_encounters,
+        MAX(encounters_with_provider) AS max_provider_encounters
+    FROM provider_counts
+    GROUP BY patient_id
+)
+SELECT 
+    patient_id,
+    CAST(max_provider_encounters AS FLOAT) / total_encounters AS upc_score
+FROM totals;
