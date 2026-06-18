@@ -1,5 +1,5 @@
 
-<img width="6912" height="3456" alt="banner png" src="https://github.com/user-attachments/assets/35777e59-eeb3-4d94-942b-3260512b9aa0" />
+<img width="6912" height="3456" alt="Hospital Operations Analysis" src="https://github.com/user-attachments/assets/a1024811-310b-4df6-9505-57eb8aa1fa42" />
 
 # 🏥 Healthcare Operations Analytics  
 Improving patient flow, reducing wait times, and strengthening operational performance through data.
