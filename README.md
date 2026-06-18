@@ -96,11 +96,12 @@ These steps ensured the dataset was reliable enough for operational analysis.
 - **Rebalance staffing** to match real demand patterns  
 - **Improve processes before expanding capacity** to avoid unnecessary resource costs  
 
-
 ---
 
 ## 📬 Contact
 **Josephine Lawal**
+
 Data Operation analyst
+
 https://github.com/JosephineLawal1
-For collaboration or questions, feel free to reach out.
+
